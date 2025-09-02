@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2be38287fad643d3bcf7cdf74c7f94d, type: 3}
+  m_Name: ShopDatabase
+  m_EditorClassIdentifier: 
+  money: 2000000000
+  items:
+  - itemName: Luxury Villa
+    icon: {fileID: 21300000, guid: cdcfb9ae655624ba4929bb3f3d884b78, type: 3}
+    price: 5000000
+    boughtAmount: 3
+    OnInspectorIcon: {fileID: 6717727133633750883, guid: eb52e9febfbde4bdbbeb99f93aa4f45f, type: 3}
+  - itemName: Penthouse Apart
+    icon: {fileID: 21300000, guid: fd34ccff3772d48078c2201c443466fc, type: 3}
+    price: 10000000
+    boughtAmount: 2
+    OnInspectorIcon: {fileID: 4322255961748452777, guid: 27357ff32c54847328be5f97f5455aef, type: 3}
+  - itemName: Tropical Island
+    icon: {fileID: 21300000, guid: c727c1da4c48143df878a4c432419b27, type: 3}
+    price: 50000000
+    boughtAmount: 2
+    OnInspectorIcon: {fileID: 4903925529503066433, guid: 8b0272afcd8ee434aac49070a73281e2, type: 3}
+  - itemName: 'Palace '
+    icon: {fileID: 21300000, guid: 08c87b5546f324b4ab57eb54097714e6, type: 3}
+    price: 25000000
+    boughtAmount: 2
+    OnInspectorIcon: {fileID: 8487472067544844528, guid: 5c3d31e21c719411a91b2f893350a0b4, type: 3}
+  - itemName: Ferrari
+    icon: {fileID: 21300000, guid: 442b9d1dd7a074ff7aae11405f7382b2, type: 3}
+    price: 500000
+    boughtAmount: 1
+    OnInspectorIcon: {fileID: 847475089100196924, guid: b2dafb213b5b947a28abfc2a61737d35, type: 3}
+  - itemName: Lamborghini
+    icon: {fileID: 21300000, guid: 4451c28b8f30341769f9ac85498da6f1, type: 3}
+    price: 650000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 8961934359110082671, guid: 4ff9613a39fd14d29b9b8aeb52010a71, type: 3}
+  - itemName: Bugatti
+    icon: {fileID: 21300000, guid: b804b077e6c164775b0b4dad1cbc7476, type: 3}
+    price: 1200000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 5545019528905925686, guid: fa45a1b79dcec4f02b344dc81c80f754, type: 3}
+  - itemName: Rolls Royce Phantom
+    icon: {fileID: 21300000, guid: 9d686ecc489184fbcb5580aaaf729354, type: 3}
+    price: 1000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 4879416093405741726, guid: 7e6bb2fa7dba3441f8706f5e68d56e17, type: 3}
+  - itemName: Luxury Yacht
+    icon: {fileID: 21300000, guid: d2ca4aaa0483a497d922d4332576a697, type: 3}
+    price: 15000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 6113843734619690609, guid: ac1e79b2296b947428f64c3cc3b22479, type: 3}
+  - itemName: Private Jet
+    icon: {fileID: 21300000, guid: 45e0257b1752b46b0be54bd719184136, type: 3}
+    price: 30000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 5071568351365509387, guid: 7e3b6822917544e43962c8376a25a47e, type: 3}
+  - itemName: Nightclub
+    icon: {fileID: 21300000, guid: d6ee82cb49f6640d18557a82002e49cd, type: 3}
+    price: 10000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 6873231858668907145, guid: c9455c237a8164cf6900c05ff1aff62e, type: 3}
+  - itemName: Football Team
+    icon: {fileID: 21300000, guid: ed34ba5687daf40c0955a80b79f4f67b, type: 3}
+    price: 50000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 3688999419067394296, guid: e24cfbe52cac24883862c30e7218cad0, type: 3}
+  - itemName: Adidas Hoodie
+    icon: {fileID: 102649965, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 8000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Tesla Model 3
+    icon: {fileID: -1618817047, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 400000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 6011057337602512449, guid: 77cc0915437394cf2ac00ff753376cd5, type: 3}
+  - itemName: Nike Sneakers
+    icon: {fileID: 509852800, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 2500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Louis Vuitton Bag
+    icon: {fileID: -534111241, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 100000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Gucci Belt
+    icon: {fileID: -851998915, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 10000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Macbook M3
+    icon: {fileID: 1995556457, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 7000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: PS5
+    icon: {fileID: 1583263997, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 1500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Rolex
+    icon: {fileID: -1327916995, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 50000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Supreme Jacket
+    icon: {fileID: 1469848395, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 5000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Iphone 16 Pro Max
+    icon: {fileID: -38785139, guid: c50727b1402e14e3fbdbbdea423ba773, type: 3}
+    price: 1800
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Camera
+    icon: {fileID: 576971740, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 1500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Coffee Machine
+    icon: {fileID: -935069032, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Designer Shoes
+    icon: {fileID: -125098630, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 3500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Diamonds Earrings
+    icon: {fileID: -125098630, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 12000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: E-Scooter
+    icon: {fileID: 1610296852, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 2900
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Gaming PC
+    icon: {fileID: -507105557, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 2500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Parfume
+    icon: {fileID: -1144273501, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 9000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Smartwatch
+    icon: {fileID: -1144273501, guid: e775aa7d45a914871b80839a4418f157, type: 3}
+    price: 250
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Kawasaki Motor
+    icon: {fileID: 1172615044, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 18000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Italian Custom Suit
+    icon: {fileID: 871498717, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 9000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Diamond Necklace
+    icon: {fileID: -434721884, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 9500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Handbag
+    icon: {fileID: -472176534, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 3500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Shoes
+    icon: {fileID: 1820828416, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 3500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Wine Collection
+    icon: {fileID: -37410539, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 1200
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Spicy Sculpture
+    icon: {fileID: -220557554, guid: e4c2a2d946f02454d8175ace54bdebfd, type: 3}
+    price: 8500
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Helicopter
+    icon: {fileID: 106733060, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 15000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Private Golf Course
+    icon: {fileID: -1622408944, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 25000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Cruise Ship
+    icon: {fileID: 1597556231, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 80000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Diamond Crown
+    icon: {fileID: 773347921, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 120000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Opera House VIP Box
+    icon: {fileID: 131020037, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 200000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Rare Painting Collection
+    icon: {fileID: -911799540, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 500000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Luxury Casino License
+    icon: {fileID: -1551241835, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 1000000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Theme Park Ownership
+    icon: {fileID: -1418769217, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 25000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}
+  - itemName: Space Station Suite
+    icon: {fileID: -275260494, guid: 97fe03fb6239443e180c79410a71dc69, type: 3}
+    price: 1000000
+    boughtAmount: 0
+    OnInspectorIcon: {fileID: 0}

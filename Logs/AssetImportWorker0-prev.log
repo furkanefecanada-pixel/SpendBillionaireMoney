@@ -1,0 +1,793 @@
+Unity Editor version:    2021.3.45f1 (0da89fac8e79)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.4.1 (Build 24E263)
+Darwin version:          24.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/furkanefeaktan/Desktop/UnityProjectFiles/SpendBillionaireMoney
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50338
+Successfully changed project path to: /Users/furkanefeaktan/Desktop/UnityProjectFiles/SpendBillionaireMoney
+/Users/furkanefeaktan/Desktop/UnityProjectFiles/SpendBillionaireMoney
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8319061120] Host "[IP] 192.168.50.163 [Port] 0 [Flags] 2 [Guid] 953265890 [EditorId] 953265890 [Version] 1048832 [Id] OSXEditor(0,Macmini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8319061120] Host "[IP] 192.168.50.163 [Port] 0 [Flags] 2 [Guid] 953265890 [EditorId] 953265890 [Version] 1048832 [Id] OSXEditor(0,Macmini) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 154.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/furkanefeaktan/Desktop/UnityProjectFiles/SpendBillionaireMoney/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56386
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002312 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 194 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (318ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.45f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4190 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (296.3 KB). Loaded Objects now: 4639.
+Memory consumption went from 151.2 MB to 150.9 MB.
+Total: 2.690292 ms (FindLiveObjects: 0.166334 ms CreateObjectMapping: 0.053000 ms MarkObjects: 2.409166 ms  DeleteObjects: 0.061292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 61666.338146 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Aug 31, 2025, 09_32_11 PM.png
+  artifactKey: Guid(ed34ba5687daf40c0955a80b79f4f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Aug 31, 2025, 09_32_11 PM.png using Guid(ed34ba5687daf40c0955a80b79f4f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbece7979402503d206a4476d36ebb7') in 0.149539 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.840243 seconds.
+  path: Assets/Resources/ItemsSprites/NightClub.png
+  artifactKey: Guid(d6ee82cb49f6640d18557a82002e49cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/NightClub.png using Guid(d6ee82cb49f6640d18557a82002e49cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b0fdaa639f15507f7808cbd4076e1f') in 0.061754 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.144980 seconds.
+  path: Assets/Resources/ItemsSprites/FootballTeam.png
+  artifactKey: Guid(ed34ba5687daf40c0955a80b79f4f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/FootballTeam.png using Guid(ed34ba5687daf40c0955a80b79f4f67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b5b44e8cbe17fb83cdadd4a4a2afc6') in 0.061972 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4724.997751 seconds.
+  path: Assets/Resources/ItemObjectsOnIns/FootballTeam.prefab
+  artifactKey: Guid(e24cfbe52cac24883862c30e7218cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemObjectsOnIns/FootballTeam.prefab using Guid(e24cfbe52cac24883862c30e7218cad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2774ae44222445713a13dfeeed23b395') in 1.337304 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 569.454807 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94af3b59730df3db8d7a1fca88f5fa7f') in 0.137445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.230010 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31975f9cf2ebd42fe014236a5fe8d1fa') in 0.049817 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.101767 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670ece4044592d1cf113623895458027') in 0.066109 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.838186 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa90290f6d80073421cd5c56754b7766') in 0.072182 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.488829 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfef75a8503af2e91a4fcaa130176f17') in 0.060410 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.626210 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3407a4d4d60161c3e2c47d6c8b2402c') in 0.054869 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.774776 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea27ba47be4e56f654d3eebb60100a') in 0.103211 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 30.723855 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5189b014ea9c1d12c4fb272b153dc9f5') in 0.058568 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.501774 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2031a3c2224d2bc9fb83fba18ad21f37') in 0.027344 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.748779 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c47cfa04cab10e8e8af51bedb5ff2') in 0.064330 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.862752 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ccced6880d0bfb4f470f63a3af0f83') in 0.062736 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.769562 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373aadc099f7503401eb96d12b39ec6f') in 0.023379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 43.929770 seconds.
+  path: Assets/Resources/ItemsSprites/Materials/201119741-yachts-isometric-icon-travel-ship-luxury-marine-cruise-boat-yachting-3d-vessel-fishing-sea-removebg-preview.mat
+  artifactKey: Guid(9b0bc70af5e01477996263a701724387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/Materials/201119741-yachts-isometric-icon-travel-ship-luxury-marine-cruise-boat-yachting-3d-vessel-fishing-sea-removebg-preview.mat using Guid(9b0bc70af5e01477996263a701724387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dd84d69915f69aac658f6c36586fa1') in 0.172089 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 66.880706 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb280296cc223359be5012de9ef05d7d') in 0.063134 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 27.262274 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ff71210dd4fc76cd5150625f5d3db5') in 0.077843 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 46.601674 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Demo.prefab
+  artifactKey: Guid(298daca7decb9f846b5ff996ee97a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Demo.prefab using Guid(298daca7decb9f846b5ff996ee97a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2720ed7ddea26c52734ba46dbd19ce2') in 0.449635 seconds 
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 118.368361 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9e31252a7ac298bbed15b6b03c2d75') in 0.063300 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 25.592479 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0516b3d9e35b9714c31604e90ff5b54') in 0.045385 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 185.557584 seconds.
+  path: Assets/Resources/ItemObjectsOnIns/Tesla Model 3.prefab
+  artifactKey: Guid(77cc0915437394cf2ac00ff753376cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemObjectsOnIns/Tesla Model 3.prefab using Guid(77cc0915437394cf2ac00ff753376cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc63fa105352267d8514395ab385f4') in 0.031962 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 28.647584 seconds.
+  path: Assets/Scripts/ShopManager.cs
+  artifactKey: Guid(29e1309121a3b4a7997fdcdba1955f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/ShopManager.cs using Guid(29e1309121a3b4a7997fdcdba1955f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eef69daa7b7f484eb96c438afa0fb42') in 0.684609 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001504 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x3133e3000 may have been prematurely finalized
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (22.0 KB). Loaded Objects now: 4712.
+Memory consumption went from 167.4 MB to 167.4 MB.
+Total: 3.353083 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.109417 ms MarkObjects: 3.062750 ms  DeleteObjects: 0.023209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 655.672675 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4eb6eee137041678a93a492f562003d') in 0.173954 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 17.958676 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89a2124a6d9034f1dca8006e3712cef') in 0.084738 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 14.245692 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888b53c8ce02c2e90284122494f3c447') in 0.085619 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 76.475196 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b1cbe48f2ade00f8e3616d840094c2') in 0.071075 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 39.078164 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f43c30b10066104b275ebb7adae606') in 0.068872 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 28.985334 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45541a408bbb12b47d6ce36ca2ce34b') in 0.093703 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 21.609110 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fafd17256655157841d891ef73e372') in 0.095040 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 15.982281 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9823b75414b7dd7119bb2f2a192f8104') in 0.110899 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 41.352289 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c23574842b4cbba4fe8c4a9f3a844ea') in 0.108296 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.830390 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea73de7a8f8d770b11e89f48f7e8fb2') in 0.119812 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 18.089939 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7c409ad56adad18da77b29c33c6606') in 0.098709 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 8.162077 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904128cbe56831a3b748167e34c1b6bc') in 0.142789 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 12.449331 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png
+  artifactKey: Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_02_27 AM.png using Guid(c50727b1402e14e3fbdbbdea423ba773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a242891094dd89aa931725b33a46789') in 0.151432 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.493176 seconds.
+  path: Assets/Resources/ItemObjectsOnIns/Tesla Model 3.prefab
+  artifactKey: Guid(77cc0915437394cf2ac00ff753376cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemObjectsOnIns/Tesla Model 3.prefab using Guid(77cc0915437394cf2ac00ff753376cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28d2983792406a126f342ed360c383') in 0.053110 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 707.361018 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e767c595fdb77443347dbbcb201e0') in 0.114464 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 61.398863 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e445378c33f656768ce4dbc86d5bc7') in 0.049945 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.264728 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac04a91478eee64fd3db8bb2848a7ea') in 0.020020 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.034037 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28ef59d7dd40f7cfd0f55d013d13db1') in 0.069421 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 11.500687 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873545d9e181a97c568045cebb5f4160') in 0.057151 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 12.968038 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c0d9d3e19ca1aa30f91b728bb57844') in 0.064285 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 23.556004 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af878cc517747a9b2d7b3dd856aae10') in 0.095794 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 16.318213 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b641445223d921b2251b8358920263d4') in 0.105466 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.214493 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65b84ab5c36a6f3f0c60deac5d569cd') in 0.057709 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.401552 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png
+  artifactKey: Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 01_45_14 AM.png using Guid(e775aa7d45a914871b80839a4418f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976869085c6a0c1c39ad60ac350bf1c8') in 0.078717 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 733.795649 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee699ed1a3e5f7f0c60d8a23b8e418a5') in 0.124078 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.162384 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e6cc3e4554dd265c3ea38e8596647a') in 0.012685 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.455139 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00218811fa11975f0a24e8d1cdb6b854') in 0.038068 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.395168 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38bd218cb3b2289e1920ba98900bf22') in 0.077291 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 28.321131 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce84aed94875df76f05489e308c0ccf4') in 0.078638 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 16.343613 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db94b727e68cbe3cdabff013558394f') in 0.089555 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 172.420844 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b788b4dd9ed8eaafd56b02cc2cd2daae') in 0.091937 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 63.072856 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png
+  artifactKey: Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_00_25 AM.png using Guid(e4c2a2d946f02454d8175ace54bdebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0175baacd66ff412c3debfada36f4deb') in 0.106827 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3387.687746 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17f3a83ea49a3d0b2e382fb60886136') in 0.115538 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.225704 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc864ab0acd35d8312510f45e33758a') in 0.012426 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.986412 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb7036ba8fef6833f49a99da868604e') in 0.072172 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.864002 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbd078e2bbe357dbe864cdd8069d5a8') in 0.075195 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1358.371812 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e1aff629a7bacd77f6ea7ba30635ad') in 0.092794 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 24.758803 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4a53659a6e4a96ca45ee9ae588030b') in 0.088794 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 268.423084 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f20c7dcc5db24d6cf4f8ca3e1adb3') in 0.103833 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 13.425287 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310b41923945812c62efeb28088ce4ed') in 0.110914 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 16.229462 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974c078c49f2d8a616818a6604ed4351') in 0.112291 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 19.989321 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfdcc4ed957a99ef3fd979ab603d608') in 0.115411 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 10.970549 seconds.
+  path: Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png
+  artifactKey: Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/ItemsSprites/ChatGPT Image Sep 1, 2025, 02_54_24 AM.png using Guid(97fe03fb6239443e180c79410a71dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a5f57d422c39155fb3cfb8bd2e9b8') in 0.128018 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1026.020079 seconds.
+  path: Assets/Scripts/ShopDatabase.asset
+  artifactKey: Guid(0a2ded094256548e09d5fc2c713ba24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/ShopDatabase.asset using Guid(0a2ded094256548e09d5fc2c713ba24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f309a905967fce6795bdb1bac54546') in 0.117342 seconds 
+Number of asset objects unloaded after import = 110
